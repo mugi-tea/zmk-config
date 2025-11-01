@@ -21,10 +21,10 @@
             // |  E  |  G  |
 
             bindings = <
-&kp A  &kp E
-&kp B  &kp F
-&kp C  &kp G
-&kp D  &mo 1
+&kp C  &kp A
+&kp G  &kp E
+&kp D  &kp B
+&mo 1  &kp F
             >;
         };
 
@@ -38,13 +38,11 @@
             // |  7  |  8  |
 
             bindings = <
-&kp N1        &kp N5
-&kp NUMBER_2  &kp NUMBER_6
-&kp NUMBER_3  &kp N7
-&kp NUMBER_4  &trans
+&kp NUMBER_3  &kp NUMBER_1
+&kp N7        &kp N5
+&kp NUMBER_4  &kp NUMBER_2
+&trans        &kp NUMBER_6
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
