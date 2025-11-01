@@ -4,17 +4,14 @@
   "layouts": {
     "LAYOUT": {
       "layout": [
-        { "row": 0, "col": 0, "x": 0, "y": 0 },
-        { "row": 0, "col": 1, "x": 1, "y": 0 },
-
-        { "row": 1, "col": 0, "x": 0, "y": 1 },
-        { "row": 1, "col": 1, "x": 1, "y": 1 },
-
-        { "row": 2, "col": 0, "x": 0, "y": 2 },
-        { "row": 2, "col": 1, "x": 1, "y": 2 },
-
-        { "row": 3, "col": 0, "x": 0, "y": 3 },
-        { "row": 3, "col": 1, "x": 1, "y": 3 }
+        { "label": "A", "row": 0, "col": 0, "x": 0, "y": 0 },
+        { "label": "E", "row": 0, "col": 1, "x": 1, "y": 0 },
+        { "label": "B", "row": 1, "col": 0, "x": 0, "y": 1 },
+        { "label": "F", "row": 1, "col": 1, "x": 1, "y": 1 },
+        { "label": "C", "row": 2, "col": 0, "x": 0, "y": 2 },
+        { "label": "G", "row": 2, "col": 1, "x": 1, "y": 2 },
+        { "label": "D", "row": 3, "col": 0, "x": 0, "y": 3 },
+        { "label": "mo1", "row": 3, "col": 1, "x": 1, "y": 3 }
       ]
     }
   },
