@@ -1,0 +1,5 @@
+config SHIELD_SIMPLE_TEST_LEFT
+    def_bool $(shields_list_contains,simple_test_left)
+
+config SHIELD_SIMPLE_TEST_RIGHT
+    def_bool $(shields_list_contains,simple_test_right)

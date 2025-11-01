@@ -1,0 +1,5 @@
+#include "simple_test.dtsi"
+
+&default_transform {
+    col-offset = <2>;
+};
