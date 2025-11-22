@@ -8,6 +8,19 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_SIMPLE_TEST_RIGHT
+
+config PMW3610
+    default y
+
+config INPUT
+    default y
+
+config ZMK_MOUSE
+    default y
+
+endif
+
 if SHIELD_SIMPLE_TEST_LEFT || SHIELD_SIMPLE_TEST_RIGHT
 
 config ZMK_SPLIT
