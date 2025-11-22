@@ -19,6 +19,9 @@ config INPUT
 config ZMK_MOUSE
     default y
 
+config ZMK_POINTING
+    default y
+
 endif
 
 if SHIELD_SIMPLE_TEST_LEFT || SHIELD_SIMPLE_TEST_RIGHT
